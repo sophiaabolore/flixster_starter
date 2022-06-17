@@ -51,13 +51,16 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 ### Reflection
 
 - Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
-  Not particularly to be honest. A lot of the useful resources were hidden at the bottom of the page and I didn't know about them until another intern pointed them out to me. To be fair I think my learning style leans more towards reading programming articles than watching videos because of my attention span but I was able to learn a lot due to jjust exploring resources that I found more applicable to me so that was a plus.
+
+Not particularly to be honest. A lot of the useful resources were hidden at the bottom of the page and I didn't know about them until another intern pointed them out to me. To be fair I think my learning style leans more towards reading programming articles than watching videos because of my attention span but I was able to learn a lot due to jjust exploring resources that I found more applicable to me so that was a plus.
 
 - If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
-  I would probably have made a wireframe on Figma at the start instead because I would've loved to have a more professional-looking UI and also gotten more experience using figma as a tool beyond just planning. I also wish I could have had more time for more of the strecth features.
+
+I would probably have made a wireframe on Figma at the start instead because I would've loved to have a more professional-looking UI and also gotten more experience using figma as a tool beyond just planning. I also wish I could have had more time for more of the strecth features.
 
 - Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
-  I'm planning on working on implementing the pop-up and embedding features this weekend because I didn't get to complete them. Something that was unexpected was missing a crucial part of the lecture and directions about using the API due to having some meetings. I ended up getting blocked and missed out on productivity on the first day. Next time I will try to block out time to be stuck and try things out myself but ask for help after that period of time is over to be more efficient.
+
+I'm planning on working on implementing the pop-up and embedding features this weekend because I didn't get to complete them. Something that was unexpected was missing a crucial part of the lecture and directions about using the API due to having some meetings. I ended up getting blocked and missed out on productivity on the first day. Next time I will try to block out time to be stuck and try things out myself but ask for help after that period of time is over to be more efficient.
 
 ### Open-source libraries used
 
