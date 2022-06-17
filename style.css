@@ -1,1 +1,217 @@
+h1{
+    font-size: medium;
+    font-weight: 900;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+input,
+body {
+    background-color: black;
+}
+p{
+    text-align: center;
+}
+.title {
+    margin: 2rem;
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: 500;
+}
 
+.form {
+    display: flex;
+    justify-content: center;
+    max-width: 90%;
+    width: 36rem;
+    margin: 0 auto;
+}
+
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+  }
+
+.form-field {
+    display: flex;
+    margin-bottom: 5rem;
+    flex-grow: 1;
+}
+
+.form-field-input {
+    flex-grow: 1;
+    padding: .5rem;
+    font-size: 1.05rem;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: hsl(210, 38%, 94%);
+}
+
+.form-field-input::placeholder {
+    color: #a0aec0;
+}
+
+.form-field-submit {
+    padding: .75rem 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+    color: #222;
+    font-weight: 500;
+    background-color: rgb(166, 224, 255);
+
+    transition: background-color 150ms ease-in-out;
+}
+
+.form-field-submit:hover {
+    background-color: hsl(141, 60%, 65%);
+}
+
+.form-field-load{
+    padding: .75rem 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+    color: #222;
+    font-weight: 500;
+    background-color: rgb(166, 224, 255);
+
+    transition: background-color 150ms ease-in-out;
+}
+
+.form-field-load:hover {
+    background-color: rgb(77, 187, 246);
+}
+
+
+
+.results {
+    width: 75rem;
+    max-width: 90%;
+    margin: 0 auto 4rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    grid-gap: 1.5rem;
+    grid-auto-flow: dense;
+}
+
+#movies-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    background-color: rgb(166, 224, 255);
+}
+.movie-card{
+    padding-top: 30px;
+    background-color: rgb(166, 224, 255);
+    font-size: 30;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width: 1800px) {
+    #movies-grid
+    { 
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        padding: 10px;
+    }
+}
+@media screen and ( max-width: 900px) {
+    #movies-grid
+    { 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #movies-grid
+    { 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 500px) {
+    #movies-grid
+    { 
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        padding: 10px;
+    }
+}
+
+
+.movie-poster{
+    border-radius: 30px;
+    transition: transform .2s;
+}
+.movie-poster:hover{
+    transform: scale(1.05);
+}
+
+
+/* The button for loading new movies*/
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+.loader {
+    border: none;
+    color: black;
+    background-color: rgb(166, 224, 255);
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    
+  }
+  .loader:hover {
+    background-color: rgb(77, 187, 246);
+    color: white;
+  }
+
+  /* The close search button*/
+.close-search-btn {
+    border: none;
+    color: black;
+    background-color: rgb(166, 224, 255);
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .close-search-btn:hover {
+    background-color: rgb(77, 187, 246);
+    color: black;
+  }
+
+/* Screen adjustment for the search bar and button */
+@media screen and (max-width: 32em) {
+    .title {
+        margin: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .form-field-input { font-size: .95rem; }
+
+    .form-field-submit {
+        font-size: .95rem;
+        padding: .5rem 1.5rem;
+    }
+}

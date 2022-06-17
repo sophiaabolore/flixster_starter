@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preload stylesheet" href="style.css" as="style" />
+    <script defer src="script.js"></script>
+    <title>Flixster</title>
+  </head>
+  <body>
+    <nav>
+      <p>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Logo_of_Flixster.svg/1200px-Logo_of_Flixster.svg.png"
+          alt="Giphy"
+          width="600"
+          height="120"
+        />
+      </p>
+    </nav>
+    <form class="form">
+      <div class="form-field">
+        <button class="close-search-btn">Close Search</button>
+        <input
+          type="text"
+          class="form-field-input"
+          id="search-input"
+          placeholder="Search"
+          alt="Search Button"
+        />
+        <input
+          type="submit"
+          value="Find Movies"
+          class="form-field-submit"
+          alt="Find Movies Button"
+        />
+      </div>
+    </form>
+    <div id="movies-grid"></div>
+    <div class="center">
+      <button class="loader" alt="Load More Movies Button">
+        Load More Movies
+      </button>
+    </div>
+  </body>
+</html>
